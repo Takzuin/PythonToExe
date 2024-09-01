@@ -1,7 +1,9 @@
+Para convertir tu código de Python en un archivo ejecutable (.exe), 
+puedes usar la herramienta PyInstaller. Aquí tienes los pasos para hacerlo:
 
-Pasos para usar el código:
-    Instalar dependencias: Asegúrate de tener tkinterdnd2 y pyinstaller instalados. Puedes instalarlos con:
-        pip install tkinterdnd2 pyinstaller
+Instalar PyInstaller:
+    Abre tu terminal o línea de comandos y ejecuta:
+        pip install pyinstaller
 
 Crear el archivo ejecutable:
     Navega hasta el directorio donde tienes tu archivo Python y ejecuta:
