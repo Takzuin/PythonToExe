@@ -1,11 +1,13 @@
-Steps to use the library:
+To convert your Python code into an executable file (.exe), you can use the PyInstaller tool. Here are the steps to do it:
 
-Install dependencies: Make sure you have tkinterdnd2 and pyinstaller installed. You can install them with:
+Install PyInstaller:
 
-pip install tkinterdnd2 pyinstaller
+Open your terminal or command line and run:
+pip install pyinstaller
 
-Create the executable file: Navigate to the directory where your Python file is located and run:
+Create the executable file:
 
+Navigate to the directory where your Python file is located and run:
 pyinstaller --onefile --windowed your_file.py
 
 --onefile creates a single executable file.
