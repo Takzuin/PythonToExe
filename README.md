@@ -1,23 +1,19 @@
-Para convertir tu código de Python en un archivo ejecutable (.exe), 
-puedes usar la herramienta PyInstaller. Aquí tienes los pasos para hacerlo:
+Steps to use the library:
 
-Instalar PyInstaller:
-    Abre tu terminal o línea de comandos y ejecuta:
-        pip install pyinstaller
+Install dependencies: Make sure you have tkinterdnd2 and pyinstaller installed. You can install them with:
 
-Crear el archivo ejecutable:
-    Navega hasta el directorio donde tienes tu archivo Python y ejecuta:
-        pyinstaller --onefile --windowed tu_archivo.py
+pip install tkinterdnd2 pyinstaller
 
-    --onefile crea un único archivo ejecutable.
-    --windowed evita que se abra una ventana de consola (útil para aplicaciones con interfaz gráfica).
+Create the executable file: Navigate to the directory where your Python file is located and run:
 
-Buscar el archivo ejecutable:
+pyinstaller --onefile --windowed your_file.py
 
-Después de ejecutar el comando anterior, PyInstaller creará una carpeta dist 
-en el mismo directorio donde se encuentra tu archivo Python.
+--onefile creates a single executable file.
+--windowed prevents a console window from opening (useful for GUI applications).
+Find the executable file:
 
-Dentro de esta carpeta, encontrarás el archivo ejecutable.
-Aquí tienes un ejemplo de cómo se vería el comando si tu archivo se llama traductor.py:
+After running the above command, PyInstaller will create a dist folder in the same directory as your Python file.
 
-pyinstaller --onefile --windowed traductor.py
+Inside this folder, you will find the executable file. Here is an example of what the command would look like if your file is named translator.py:
+
+pyinstaller --onefile --windowed translator.py
